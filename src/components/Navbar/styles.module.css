@@ -1,0 +1,87 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid #eee;
+  padding: 10px 0px;
+}
+
+.loginBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: #eee;
+}
+
+.logoutIcon {
+  position: relative;
+  cursor: pointer;
+}
+
+.logoutBox {
+  position: absolute;
+  right: -4px;
+  background: #4f4b4b;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 13px;
+}
+
+.logoutText:hover {
+  text-decoration: underline;
+}
+
+.navLinksContainer {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.displayFlex {
+  display: flex;
+  align-items: center;
+  column-gap: 7px;
+}
+
+.logo {
+  color: white;
+}
+
+a {
+  color: #eee;
+  text-decoration: none;
+}
+
+.activeLink {
+  color: white;
+}
+
+.cartIcon {
+  color: white;
+}
+
+div a {
+  color: #eee;
+}
+.cartIconContainer {
+  position: relative;
+}
+
+.cartItemCount {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+}
